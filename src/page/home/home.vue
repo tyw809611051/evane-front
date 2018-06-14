@@ -40,7 +40,9 @@ export default {
   }
   
   .el-main {
-    background-color: #E9EEF3;
+    background-size: 100% 100%;
+    background-image: url('./home.jpg');
+    background-position:center;
     color: #333;
     text-align: center;
     line-height: 160px;
