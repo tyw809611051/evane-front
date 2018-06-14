@@ -1,5 +1,5 @@
 <template>
-    <div id='head-top'>
+    <header id='head-top'>
         <!-- left title -->
         <div class="web-title">
           <span>evane</span>  
@@ -8,7 +8,7 @@
         <div class="category-title">
         <span>登陆</span> 
         </div>
-    </div>
+    </header>
 </template>
 
 <script>
