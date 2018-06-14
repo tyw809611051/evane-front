@@ -1,16 +1,15 @@
 <template>
-  <div class="home">
-    <div>
-        <p>这是图片部分</p>
-    </div>
-    <div>
-        <p>这是文字部分</p>
-    </div>
-    <div>
-        <p>这是底部</p>
-    </div>
+  <div id="home">
+    <el-container>
+        <el-main>
+            <head-top></head-top>
+        </el-main>
+        <div class="wenzi"></div>
+        <el-footer>Footer</el-footer>
+    </el-container>
   </div>
 </template>
+
 
 <script>
 import head from '../../components/header/head'
@@ -26,3 +25,36 @@ export default {
   }
 }
 </script>
+
+<style>
+    #home {
+        width:100%;
+        height: 100%;
+    }
+  .el-header, .el-footer {
+    background-color: #B3C0D1;
+    color: #333;
+    text-align: center;
+    line-height: 60px;
+    height: 10%;
+  }
+  
+  .el-main {
+    background-color: #E9EEF3;
+    color: #333;
+    text-align: center;
+    line-height: 160px;
+    height: 60%;
+  }
+  .wenzi {
+    background-color: #E9e;
+    color: #333;
+    text-align: center;
+      height: 30%;
+  }
+  .el-container {
+    width:100%;
+    height: 100%;
+  }
+
+</style>
