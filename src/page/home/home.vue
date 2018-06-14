@@ -42,8 +42,8 @@ export default {
   }
 
 .el-main {
-  height: 100%;
-  border: 1px solid red;
+  height: 60%;
+  border: 1px solid blue;
   width: 100%;
 }
 </style>
