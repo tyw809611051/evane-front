@@ -3,6 +3,7 @@
     <el-container>
         <el-main>
             <head-top></head-top>
+            <div class="center-title"></div>
         </el-main>
         <div class="category">
           <div class="life"></div>
@@ -54,6 +55,15 @@ export default {
     height: 60%;
     padding: 0%;
   }
+
+  .center-title {
+    float: left;
+    height: 10%;
+    width: 30%;
+    border: 1px solid white;
+    margin: 10% 35%;
+  }
+
   .category {
     background-color: #FFFFFF;
     text-align: center;
