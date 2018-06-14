@@ -2,11 +2,16 @@
     <header id='head-top'>
         <!-- left title -->
         <div class="web-title">
-          <span>evane</span>  
+          <span>竖心乙</span>  
+          <p>evane.com.cn</p>  
         </div>
         <!-- right title -->
         <div class="category-title">
-        <span>登陆</span> 
+          <span>首页</span> 
+          <span>分类</span> 
+          <span>登陆</span> 
+          <span>|</span> 
+          <span class="el-icon-search"></span>
         </div>
     </header>
 </template>
@@ -24,7 +29,47 @@ export default {
 </script>
 
 <style>
+
 #head-top {
+  width: 100%;
+  height: 10%;
+  position:fixed;
+  top:5%;
+  /* border: 1px solid red; */
+}
+
+#head-top > div {
+  height: 100%;
+}
+
+.web-title {
+  /* border: 1px solid green; */
+  float: left;
+  margin: 0 4%;
+  text-align: center;
+}
+
+.web-title span {
+  font-size:  2em;
+  font-family: PingFang SC;
+}
+
+.web-title p {
+  margin: 0;
+  padding: 0;
+}
+
+.category-title {
+  /* border : 1px solid blue; */
+  float: right;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.category-title span {
+  margin: 20px 10px;
+}
+/* #head-top {
   height: 20%;
   width: 100%;
 }
@@ -50,6 +95,6 @@ export default {
 span {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: whitesmoke;
-}
+} */
 
 </style>
