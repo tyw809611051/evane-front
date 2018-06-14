@@ -1,8 +1,8 @@
 <template>
-        <el-footer id='foot'>
+        <footer id='foot'>
           <div class="footer-contact"></div>
           <div class="footer-social"></div>
-        </el-footer>
+        </footer>
 </template>
 
 <script>
@@ -18,33 +18,26 @@ export default {
 </script>
 
 <style>
-  /* #foot {
-      display: inline;
-      width: 100px;
-      height: 100px;
-      border: 1px solid blue;
-      margin: 0px;
-      padding: 0px;
-  }
-  .el-footer {
+#foot {
+    width: 100%;
     height: 10%;
-    margin: 0px;
-    padding: 0px;
-  }
+    position:fixed;
+    bottom:0;
+    /* border: 1px solid red; */
+}
 
-  .footer-contact {
-    width: 50%;
+.footer-contact {
+    width: 60%;
     height: 100%;
     float: left;
     background-color: #303437;
-    border: 1px solid red;
-  }
+}
 
-  .footer-social {
-    width:40%;
+.footer-social {
+    width: 40%;
     height: 100%;
     float:right;
     background-color: #18191B;
-    /* border: 1px solid green; */
+}
 
 </style>

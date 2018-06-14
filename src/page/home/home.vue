@@ -1,16 +1,15 @@
 <template>
-
-    <el-container id="home">
-      <head-top></head-top>
+    <el-container>
+        <head-top></head-top>
         <el-main>
             <!-- <div class="center-title"></div> -->
         </el-main>
 
-        <div class="category">
+        <!-- <div class="category">
           <div class="life"></div>
           <div class="skill"></div>
           <div class="dance"></div>
-        </div>
+        </div> -->
 
         <foot-bottom></foot-bottom>
     </el-container>
@@ -35,6 +34,16 @@ export default {
 </script>
 
 <style>
+.el-container {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width:100%;
+  }
 
-
+.el-main {
+  height: 100%;
+  border: 1px solid red;
+  width: 100%;
+}
 </style>
