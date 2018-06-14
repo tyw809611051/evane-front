@@ -5,9 +5,9 @@
             <head-top></head-top>
         </el-main>
         <div class="category">
-          <div></div>
-          <div></div>
-          <div></div>
+          <div class="life"></div>
+          <div class="skill"></div>
+          <div class="dance"></div>
         </div>
         <el-footer>
           <div class="footer-contact"></div>
@@ -58,6 +58,15 @@ export default {
     background-color: #FFFFFF;
     text-align: center;
     height: 30%;
+  }
+  .category > div {
+    height: 100%;
+    width: 20%;
+    /* margin: 5% auto; */
+    float: left;
+    margin: 0 6%;
+    border: 1px solid red;
+
   }
   .el-container {
     width:100%;
