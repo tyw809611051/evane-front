@@ -4,7 +4,7 @@
         <el-main>
           <div class="center-content">
             <span>你是我丰收时的盗贼---我的你翅膀上的枷锁</span>
-            <p>追随街舞的脚步从未停止</p>
+            <p>追随技术的脚步从未停止</p>
           </div>
         </el-main>
 
@@ -27,7 +27,6 @@
     </div>
 </template>
 
-
 <script>
 import head from '../../components/header/head'
 import foot from '../../components/footer/foot'
@@ -39,8 +38,8 @@ export default {
     }
   },
   components: {
-      'head-top' : head,
-      'foot-bottom' : foot
+    'head-top': head,
+    'foot-bottom': foot
   }
 }
 </script>
@@ -84,6 +83,7 @@ section > div > span {
   font-size: 1.5em;
   color: #2CB4DA;
 }
+
 section > div > p {
   color: #3E3C49;
   font-family: Hiragino Sans GB;

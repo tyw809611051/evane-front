@@ -37,6 +37,7 @@ export default {
     float: left;
     background-color: #303437;
 }
+
 .footer-contact > span {
   margin: 3% 5%;
   color: #ffffff;
@@ -50,6 +51,5 @@ export default {
     color: #AFAFB1;
     text-align: center;
 }
-
 
 </style>

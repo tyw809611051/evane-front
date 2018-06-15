@@ -2,15 +2,15 @@
     <header id='head-top'>
         <!-- left title -->
         <div class="web-title">
-          <span>竖心乙</span>  
-          <p>evane.com.cn</p>  
+          <span>竖心乙</span>
+          <p>evane.com.cn</p>
         </div>
         <!-- right title -->
         <div class="category-title">
-          <span>首页</span> 
-          <span>分类</span> 
-          <span>登录</span> 
-          <span>|</span> 
+          <span>首页</span>
+          <span>分类</span>
+          <span>登录</span>
+          <span>|</span>
           <span class="el-icon-search"></span>
         </div>
     </header>
