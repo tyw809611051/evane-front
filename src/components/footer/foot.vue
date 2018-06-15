@@ -23,7 +23,7 @@ export default {
     height: 10%;
     position:fixed;
     bottom:0;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .footer-contact {

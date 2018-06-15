@@ -1,18 +1,20 @@
 <template>
-    <el-container>
+    <div class="container">
         <head-top></head-top>
         <el-main>
-            <!-- <div class="center-title"></div> -->
+          <div class="center-content">
+            <span>这是内容</span>
+          </div>
         </el-main>
 
-        <!-- <div class="category">
+        <section>
           <div class="life"></div>
           <div class="skill"></div>
           <div class="dance"></div>
-        </div> -->
+        </section>
 
         <foot-bottom></foot-bottom>
-    </el-container>
+    </div>
 </template>
 
 
@@ -34,7 +36,7 @@ export default {
 </script>
 
 <style>
-.el-container {
+.container {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -43,7 +45,30 @@ export default {
 
 .el-main {
   height: 60%;
-  border: 1px solid blue;
   width: 100%;
+  display: block;
+  border: 1px solid blue;
+}
+
+.center-content {
+  border: 1px solid grey;
+  height: 10%;
+  width: 10%;
+  position:absolute;
+  left: 40%;
+  top: 20%;
+}
+
+section {
+  height: 29%;
+  border: 1px solid green;
+}
+
+section > div {
+  width: 20%;
+  height: 100%;
+  float: left;
+  margin-left: 10%;
+  border: 1px solid gold;
 }
 </style>
