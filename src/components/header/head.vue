@@ -2,14 +2,14 @@
     <header id='head-top'>
         <!-- left title -->
         <div class="web-title">
-          <span>1</span>  
-          <p>2</p>  
+          <span>竖心乙</span>  
+          <p>evane.com.cn</p>  
         </div>
         <!-- right title -->
         <div class="category-title">
-          <span>3</span> 
-          <span>4</span> 
-          <span>5</span> 
+          <span>首页</span> 
+          <span>分类</span> 
+          <span>登录</span> 
           <span>|</span> 
           <span class="el-icon-search"></span>
         </div>
@@ -35,7 +35,7 @@ export default {
   height: 10%;
   position:fixed;
   top:5%;
-  border: 1px solid red;
+  color: #ffffff;
 }
 
 #head-top > div {
@@ -43,7 +43,6 @@ export default {
 }
 
 .web-title {
-  border: 1px solid green;
   float: left;
   margin: 0 4%;
   text-align: center;
@@ -60,7 +59,6 @@ export default {
 }
 
 .category-title {
-  border : 1px solid blue;
   float: right;
   margin-right: 5%;
   text-align: center;
