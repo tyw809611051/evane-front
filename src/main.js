@@ -8,6 +8,21 @@ import router from './router'
 
 Vue.config.productionTip = false
 Vue.use(ElementUI)
+
+router.beforeEach((to, from, next) => {
+  if (to.path == '/login') {
+    sessionStorage.removeItem('user');
+  }
+
+  let user = JSON.parse(sessionStorage.getItem('user'));
+  if (!user && to.path != '/login') {
+    next({
+      path: '/login'
+    });
+  } else {
+    next();
+  }
+});
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
