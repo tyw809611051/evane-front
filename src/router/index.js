@@ -14,13 +14,25 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      name: '导航一',
+      component: home,
+      iconCls: 'el-icon-message',
+      children: [{
+        path: '/menutab',
+        component: MenuTable,
+        name: 'Tab'
+      }]
     },
     {
       path: '/login',
       name: 'login',
       component: Login
+    },
+    {
+      path: '/404',
+      component: NotFound,
+      name: 'notFound',
+      hidden: true
     }
   ]
 })
