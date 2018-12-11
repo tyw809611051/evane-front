@@ -1,12 +1,14 @@
 <template lang="html">
 <div class="home-container">
+    
     <el-container>
-        <el-header >Header</el-header>
+        <head-top>h</head-top>
         <el-container>
-            <el-aside width="200px">Aside</el-aside>
+            <el-aside>Aside</el-aside>
             <el-container>
                 <el-main>Main</el-main>
-                <el-footer>Footer</el-footer>
+                <!-- <el-footer>Footer</el-footer> -->
+                <foot-bottom></foot-bottom>
             </el-container>
         </el-container>
     </el-container>
@@ -15,8 +17,14 @@
 </template>
 
 <script>
+import head from '../components/header/head'
+import foot from '../components/footer/foot'
+
 export default {
-    components: {},
+    components: {
+        'head-top': head,
+        'foot-bottom' : foot
+    },
     data() {
         return {
             sysName: '管理后台',
@@ -67,16 +75,16 @@ export default {
       height: 100%;
   }
   .el-header, .el-footer {
-    color: #000000;
-    background-color: rgb(161, 255, 255);
+    background-color: #B3C0D1;
+    color: #333;
     text-align: center;
     line-height: 60px;
   }
   
   .el-aside {
     background-color: #D3DCE6;
-    color: #333;
-    background-color: rgb(234, 238, 238);
+    color: #ffffff;
+    background-color: #2C2C2B;
     text-align: center;
     line-height: 200px;
     width: 50%;
